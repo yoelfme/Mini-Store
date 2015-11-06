@@ -5,8 +5,12 @@ A mini-project of store with:
 - Categories.
 - Products.
 - Clients.
-- Logic for purchase and checkout
+- Logic for purchase and checkout.
 - Send invoice via email.
+
+### Diagram
+
+![Models](docs/models.png)
 
 ---
 
