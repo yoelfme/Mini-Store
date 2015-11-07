@@ -1,8 +1,8 @@
 <?php
 namespace App\Repositories\User;
 
-use Yoelfme\Repository\Repository as BaseRepo;
 use App\Models\User;
+use Yoelfme\Repository\Repository as BaseRepo;
 
 class UserRepo extends BaseRepo
 {
