@@ -1,0 +1,14 @@
+{
+  "Categorias": {
+    "route": "categories",
+    "icon": "th"
+  },
+  "Productos": {
+    "route": "products",
+    "icon": "cubes"
+  },
+  "Ventas": {
+    "route": "sales",
+    "icon": "shopping-cart"
+  }
+}

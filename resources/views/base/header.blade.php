@@ -14,18 +14,10 @@
 
     <!-- Right Header Navigation -->
     <ul class="nav navbar-nav-custom pull-right">
-        <!-- Alternative Sidebar Toggle Button -->
-        <li>
-            <a href="javascript:void(0)" onclick="App.sidebar('toggle-sidebar-alt');">
-                <i class="gi gi-circle_exclamation_mark"></i>
-            </a>
-        </li>
-        <!-- END Alternative Sidebar Toggle Button -->
-
         <!-- User Dropdown -->
         <li class="dropdown">
             <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
-                {{ HTML::image('assets/img/avatar.png','avatar') }}
+                {!! Html::image('assets/img/avatar.png','avatar') !!}
             </a>
             @include('admin.home.combo-user')
         </li>

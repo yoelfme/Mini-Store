@@ -1,0 +1,47 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+hr {
+    margin: 10px;
+}
+
+figure {
+    margin:0;
+    display: inline-block;
+}
+
+.date {
+    color: #c0c0c0;
+    font-size: 14px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+}
+
+.header {
+
+}
+
+.logo {
+    width: 64px;
+    height: 64px;
+}
+
+.section-header {
+    /*border-left: 2px solid #c0c0c0;*/
+    display: inline-block;
+    height: 44px;
+    margin-left: 15px;
+    padding: 0 10px;
+    width: 200px;
+}
+
+.title {
+    text-decoration: underline;
+    /*line-height: 10px;*/
+}

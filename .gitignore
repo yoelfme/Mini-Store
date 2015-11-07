@@ -6,3 +6,5 @@ Homestead.json
 
 # OSX Files
 .DS_Store
+
+.idea/

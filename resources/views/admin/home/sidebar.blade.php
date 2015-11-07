@@ -2,7 +2,7 @@
     <!-- Sidebar Brand -->
     <div id="sidebar-brand" class="themed-background">
         <a href="#" class="sidebar-title">
-            <i class="fa fa-cube"></i> <span class="sidebar-nav-mini-hide"><strongTienda</strong></span>
+            <i class="fa fa-cube"></i> <span class="sidebar-nav-mini-hide"><strong>{{ config('store.title') }}</strong></span>
         </a>
     </div>
     <!-- END Sidebar Brand -->
@@ -37,8 +37,8 @@
      <!-- Sidebar Extra Info -->
     <div id="sidebar-extra-info" class="sidebar-content sidebar-nav-mini-hide">
         <div class="text-center">
-            <small>Created with <i class="fa fa-heart text-danger"></i> by <a href="#" target="_blank">Yoel Monzon</a></small><br>
-            <small><span id="year-copy"></span> &copy; <a href="#" target="_blank"Tienda</a></small>
+            <small>Created with <i class="fa fa-heart text-danger"></i> by <a href="{{ config('store.author.link') }}" target="_blank">{{ config('store.author.name') }}</a></small><br>
+            <small><span id="year-copy"></span> &copy; <a href="{{ config('store.author.link') }}" target="_blank">{{ config('store.author.name') }}</a></small>
         </div>
     </div>
     <!-- END Sidebar Extra Info -->
