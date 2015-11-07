@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9bd5c1c5dfb5bd02facdb1dd88fcf922",
+    "hash": "704a6cab6df08d0fecf747c2c961274a",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1768,6 +1768,43 @@
                 "environment"
             ],
             "time": "2015-05-30 15:59:26"
+        },
+        {
+            "name": "yoelfme/pattern-repository",
+            "version": "v1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yoelfme/ReposityLaravel.git",
+                "reference": "03c1c963d17119f3701812322b2311a4dc6d9f10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yoelfme/ReposityLaravel/zipball/03c1c963d17119f3701812322b2311a4dc6d9f10",
+                "reference": "03c1c963d17119f3701812322b2311a4dc6d9f10",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": ">=4.1 <6.0",
+                "illuminate/support": "~5.0.14|5.1.x"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Yoelfme\\Repository\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yoel Monzon",
+                    "email": "yoelfme@hotmail.com"
+                }
+            ],
+            "description": "A package for implement the pattern repository in Laravel",
+            "time": "2015-10-29 05:21:31"
         }
     ],
     "packages-dev": [
