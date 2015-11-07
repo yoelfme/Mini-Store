@@ -35,8 +35,5 @@
 
 @section('other-scripts')
     {!! Html::script('assets/js/app.js') !!}
-    {!! Html::script('app/js/helpers/helper.js') !!}
-    {!! Html::script('app/js/admin/admin.js') !!}
-    {!! Html::script('app/js/helpers/crud.js') !!}
     {!! Html::script('assets/js/attrchange.min.js') !!}
 @stop

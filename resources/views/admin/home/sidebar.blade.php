@@ -19,12 +19,12 @@
                             <a href="#" class="sidebar-nav-menu"><i class="fa fa-chevron-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-{{ $value["icon"] }} sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">{{ $value["label"] }}</span></a>
                             <ul class="sidebar">
                                 @foreach($value["childrens"] as $key2 => $value2)
-                                    <li><a href="#/{{ $value2["route"] }}">{{ $value2["label"] }}</a></li>
+                                    <li><a href="{{ $value2["route"] }}">{{ $value2["label"] }}</a></li>
                                 @endforeach
                             </ul>
                         </li>
                     @else
-                        <li><a href="#/{{ $value["route"] }}"><i class="fa fa-{{ $value["icon"] }} sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">{{ $value["label"] }}</span></a></li>
+                        <li><a href="{{ $value["route"] }}"><i class="fa fa-{{ $value["icon"] }} sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">{{ $value["label"] }}</span></a></li>
                     @endif
                 @endforeach
             </ul>
